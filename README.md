@@ -30,7 +30,7 @@ MIDI 데이터에 대해 VAE를 학습한 뒤, 학습 된 latent vector와 디�
 
 pitch 값은 Roland mapping을 기반으로 MusicVAE는 다음과 같이 단순화된 9차원 mapping을 사용한다.
 - Bass, Snare, Closed Hi-Hat, High Floor Tom, Open Hi-Hat, Low-Mid Tom, High Tom, Crash, Ride 
-- [Groove_MIDI.ipynb]()에서 이를 시각화했다.
+- [Groove_MIDI.ipynb](https://github.com/HyunLee103/Music_VAE_drum_sampling/blob/main/Groove_MIDI.ipynb)에서 이를 시각화했다.
 
 sequence를 tfrecord 형식으로 변환하여 학습 데이터셋으로 사용
 * 전처리 및 학습, samping 과정은 [Music_VAE_tf.ipynb]() 참고.
