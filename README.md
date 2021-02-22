@@ -29,10 +29,10 @@ Groove MIDI Dataset 사용, 다음과 같이 proto 형식의 sequence로 변환�
 
 pitch 값은 Roland mapping을 기반으로 MusicVAE는 다음과 같이 단순화된 9차원 mapping을 사용한다.
 - Bass, Snare, Closed Hi-Hat, High Floor Tom, Open Hi-Hat, Low-Mid Tom, High Tom, Crash, Ride 
-- Groove_MIDI.ipynb에서 이를 시각화했다.
+- [Groove_MIDI.ipynb]()에서 이를 시각화했다.
 
 sequence를 tfrecord 형식으로 변환하여 학습 데이터셋으로 사용
-* 전처리 및 학습 samping 과정은 Music_VAE_tf.ipynb 참고.
+* 전처리 및 학습 samping 과정은 [Music_VAE_tf.ipynb]() 참고.
 
 
 
