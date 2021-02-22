@@ -12,7 +12,7 @@ MIDI 데이터에 대해 VAE를 학습한 뒤, 학습 된 latent vector와 디�
 이 논문의 contribution, 일반적인 언어 모델보다 음악은 훨씬 긴 data sequence를 갖는다. 디코더에 conductor를 추가해 hierarchical하게 구성함으로써 음악이 갖는 긴 데이터 구조로 인해 생기는 vanishing influence 문제를 해결했다. conductor는 data sequence X가 U개의 subsequence 분리될 수 있다는 가정을 토대로, latent vector Z를 입력 받아 U 차원으로 임배딩한다. 디코더는 이 U개의 벡터를 받아 최종 결과값을 출력한다.
 
 ### 3. Model struncture
-- input ➡ 2-layer Bi-LSTM ➡ 2-FC ➡ latent space ➡ FC ➡ 2-layer Uni-LSTM ➡ 2-layer LSTM ➡ output
+- input → 2-layer Bi-LSTM → 2-FC → latent space → FC → 2-layer Uni-LSTM → 2-layer LSTM → output
 
 
 
