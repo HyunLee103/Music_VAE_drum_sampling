@@ -14,6 +14,17 @@ MIDI 데이터에 대해 VAE를 학습한 뒤, 학습 된 latent vector와 디�
 ### 3. Model struncture
 - input → 2-layer Bi-LSTM → 2-FC → latent space → FC → 2-layer Uni-LSTM → 2-layer LSTM → output
 
+## Code
+Groove MIDI Dataset 사용. proto 형식의 sequence로 변환하여 사용
+    notes {
+    pitch: 40
+    velocity: 120
+    start_time: 1.2785327791666667
+    end_time: 1.3328806125000001
+    is_drum: true
+  }
+
+
 
 
 
