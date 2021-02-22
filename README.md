@@ -1,5 +1,5 @@
 # Music_VAE_drum_sampling
-Music VAE를 이용한 drum 샘플 생성  
+Music VAE를 이용한 드럼 샘플 생성  
 
 
 ## Paper
@@ -15,7 +15,8 @@ MIDI 데이터에 대해 VAE를 학습한 뒤, 학습 된 latent vector와 디�
 ### 3. Model struncture
 - input → 2-layer Bi-LSTM → 2-FC → latent space → FC → 2-layer Uni-LSTM → 2-layer LSTM → output  
 
-
+  
+  
 ## Code
 Groove MIDI Dataset 사용, 다음과 같이 proto 형식의 sequence로 변환하여 사용한다.  
 
@@ -34,7 +35,8 @@ pitch 값은 Roland mapping을 기반으로 MusicVAE는 다음과 같이 단순�
 sequence를 tfrecord 형식으로 변환하여 학습 데이터셋으로 사용
 * 전처리 및 학습 samping 과정은 [Music_VAE_tf.ipynb]() 참고.
 
-
+  
+  
 
 
 
