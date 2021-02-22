@@ -48,7 +48,7 @@ sequence를 tfrecord 형식으로 변환하여 학습 데이터셋으로 사용
 │
 ├── Groove_MIDI.ipynb         - groove midi 시각화
 │
-├── Music_VAE_train.ipynb     - 전처리/학습/샘플링
+└── Music_VAE_train.ipynb     - 전처리/학습/샘플링
 
 ``` 
   
