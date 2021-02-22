@@ -18,7 +18,7 @@ MIDI 데이터에 대해 VAE를 학습한 뒤, 학습 된 latent vector와 디�
   
   
 ## Code
-Groove MIDI Dataset 사용, 다음과 같이 proto 형식의 sequence로 변환하여 사용한다.  
+[Groove MIDI Dataset](https://magenta.tensorflow.org/datasets/groove) 사용, 다음과 같이 proto 형식의 sequence로 변환하여 사용한다.  
 
     notes {
     pitch: 40
