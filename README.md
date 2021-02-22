@@ -23,7 +23,7 @@ Groove MIDI Dataset 사용. proto 형식의 sequence로 변환하여 사용.
     start_time: 1.2785327791666667
     end_time: 1.3328806125000001
     is_drum: true
-  }
+    }
 
 
 
