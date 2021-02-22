@@ -34,6 +34,19 @@ pitch 값은 Roland mapping을 기반으로 MusicVAE는 다음과 같이 단순�
 
 sequence를 tfrecord 형식으로 변환하여 학습 데이터셋으로 사용
 * 전처리 및 학습, samping 과정은 [Music_VAE_tf.ipynb](https://github.com/HyunLee103/Music_VAE_drum_sampling/blob/main/Music_VAE_train.ipynb) 참고.
+* 생성된 4마디 드럼 샘플은  
+*     
+
+    ├─ Music_VAE_drum_sampling
+    │  │  README.md
+    │  ├─generated_sample
+    │  │      sample_1
+    │  │      sample_2
+    |  |      sample_3
+    |  |      sample_4
+    │  └─
+    │          
+    │          
 
   
   
