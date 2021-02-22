@@ -1,8 +1,9 @@
 # Music_VAE_drum_sampling
 Music VAE를 이용한 드럼 샘플 생성  
 
-
-## Paper
+  
+  
+# Paper
 MIDI 데이터에 대해 VAE를 학습한 뒤, 학습 된 latent vector와 디코더를 활용해 interpolation, sampling 등 음악 창작 도구로 활용할 수 있다. 
 ![image](https://user-images.githubusercontent.com/52783941/108681280-53d1b900-7532-11eb-9ecc-15d98a323fb6.png)
 
@@ -17,7 +18,7 @@ MIDI 데이터에 대해 VAE를 학습한 뒤, 학습 된 latent vector와 디�
 
   
   
-## Code
+# Code
 [Groove MIDI Dataset](https://magenta.tensorflow.org/datasets/groove) 사용, 다음과 같이 proto 형식의 sequence로 변환하여 사용한다.  
 
     notes {
@@ -56,7 +57,8 @@ sequence를 tfrecord 형식으로 변환하여 학습 데이터셋으로 사용
 
 
 
-
+  
+  
 ## Reference
 - A Hierarchical Latent Vector Model for Learning Long-Term Structure in Music(2018, Google Magenta)
 - https://github.com/magenta/magenta/tree/master/magenta/models/music_vae
