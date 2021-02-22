@@ -19,6 +19,8 @@ MIDI 데이터에 대해 VAE를 학습한 뒤, 학습 된 latent vector와 디�
 ### Model struncture
 #### Train
 - input → 2-layer Bi-LSTM → 2-FC → latent space → FC → 2-layer Uni-LSTM → 2-layer LSTM → output(input)
+- 정규분포와 생성된 latent vector와의 KL-divergence를 최소화 하는 방향으로 학습
+- 디코더를 통과한 output과 input의 mse를 최소화 하는 방향으로 학습
    
 #### Inference(sampling)
 - random gaussian vector → FC → 2-layer Uni-LSTM → 2-layer LSTM → output
