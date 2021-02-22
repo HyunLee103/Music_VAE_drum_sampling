@@ -25,6 +25,10 @@ Groove MIDI Dataset 사용. proto 형식의 sequence로 변환하여 사용.
     is_drum: true
     }
 
+pitch 값은 Roland mapping을 기반으로 논문에서는 단순화된 9차원 mapping을 사용한다.
+- Bass, Snare, Closed Hi-Hat,High Floor Tom, Open Hi-Hat, Low-Mid Tom, High Tom,Crash, Ride 
+- Groove_MIDI.ipynb에서 Groove MIDI Dataset 9차원으로 시각화했다.
+
 
 
 
