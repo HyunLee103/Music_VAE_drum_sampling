@@ -17,7 +17,11 @@ MIDI 데이터에 대해 VAE를 학습한 뒤, 학습 된 latent vector와 디�
 학습이 잘 된 디코더는 정규분포에 가까운 latent vector를 인풋으로 받아 샘플을 생성한다. 따라서 정규분포의 랜덤 벡터를 디코더에 통과시키면 새로운 샘플을 무한히 만들 수 있다.
 
 ### Model struncture
+#### Train
 - input → 2-layer Bi-LSTM → 2-FC → latent space → FC → 2-layer Uni-LSTM → 2-layer LSTM → output  
+   
+#### Inference(sampling)
+- random gaussian vector → FC → 2-layer Uni-LSTM → 2-layer LSTM → output
 
   
   
