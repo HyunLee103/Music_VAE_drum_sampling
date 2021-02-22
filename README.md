@@ -34,7 +34,7 @@ pitch 값은 Roland mapping을 기반으로 MusicVAE는 다음과 같이 단순�
 - Bass, Snare, Closed Hi-Hat, High Floor Tom, Open Hi-Hat, Low-Mid Tom, High Tom, Crash, Ride 
 - [Groove_MIDI.ipynb](https://github.com/HyunLee103/Music_VAE_drum_sampling/blob/main/Groove_MIDI.ipynb)에서 이를 시각화했다.
 
-sequence를 tfrecord 형식으로 변환하여 학습 데이터셋으로 사용
+공식 Tensorflow 코드에서는 sequence를 tfrecord 형식으로 변환하여 학습 데이터셋으로 사용한다.
 * 전처리 및 학습, samping 과정은 [Music_VAE_tf.ipynb](https://github.com/HyunLee103/Music_VAE_drum_sampling/blob/main/Music_VAE_train.ipynb) 참고.
 * 생성된 4마디 드럼 샘플은 generated_samples 폴더에 있다.
 
