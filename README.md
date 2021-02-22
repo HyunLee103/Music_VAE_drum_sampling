@@ -1,8 +1,8 @@
 # Music_VAE_drum_sampling
+Music VAE를 이용한 drum 샘플 생성
 
 ## Paper
-
-Music VAE를 이용한 drum 샘플 생성
+MIDI 데이터에 대해 VAE를 학습한 뒤, 학습 된 latent vector를 활용해 interpolation, sampling 등 음악 창작 도구로 활용할 수 있다. 
 
 
 
